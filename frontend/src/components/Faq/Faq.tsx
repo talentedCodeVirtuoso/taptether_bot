@@ -1,11 +1,4 @@
-import { useState } from "react";
-
 const Faq = () => {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
-
-  const toggleAccordion = (index: number) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
   return (
     <div
       style={{
