@@ -1,0 +1,82 @@
+.profit-section {
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.profit-area-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.profit-coin-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #f4f4f4;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  gap: 5px;
+}
+
+.profit-font-color {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #d5c6a1;
+}
+
+.coin-area {
+  display: flex;
+  align-items: center;
+}
+
+.coin-area p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5d5d5d;
+  margin: 2px 0;
+}
+
+.coin-area img {
+  width: 20px;
+  height: 20px;
+}
+
+.main-section-blue-coin-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.main-section-blue-coin-area img {
+  width: 60px;
+}
+
+.main-section-blue-coin-area p {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-section-gold-coin-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1;
+}
+
+.main-section-gold-coin-area img {
+  width: 35px;
+}
+
+.main-section-gold-coin-area p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}

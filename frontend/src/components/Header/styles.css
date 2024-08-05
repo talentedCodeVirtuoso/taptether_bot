@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header-left {
+  display: flex;
+  column-gap: 5px;
+  color: #aaaaaa;
+  align-items: center;
+}
+
+.header-left span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #585858;
+}
+
+.user-icon img {
+  width: 20px;
+  height: auto;
+}
+
+.deposit-button {
+  background-color: #e9f5f2;
+  color: #90cfbc;
+  padding: 10px 20px;
+  border: 1px solid #e9f5f2;
+  border-radius: 15px;
+  cursor: pointer;
+}
